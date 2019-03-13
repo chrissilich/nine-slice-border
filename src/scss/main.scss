@@ -38,16 +38,16 @@ $thickness: 80px;
 	width: $thickness;
 	height: $thickness;
 
-	&.corner-t {
+	&.corner-top {
 		top: 0;
 	}
-	&.corner-l {
+	&.corner-left {
 		left: 0;
 	}
-	&.corner-b {
+	&.corner-bottom {
 		bottom: 0;
 	}
-	&.corner-r {
+	&.corner-right {
 		right: 0;
 	}
 }
@@ -59,10 +59,10 @@ $thickness: 80px;
 	height: calc(100vh - #{$thickness} - #{$thickness});
 	top: $thickness;
 
-	&.side-l {
+	&.side-left {
 		left: 0;
 	}
-	&.side-r {
+	&.side-right {
 		right: 0;
 	}
 }
@@ -75,10 +75,10 @@ $thickness: 80px;
 	width: calc(100vw - #{$thickness} - #{$thickness});
 	left: $thickness;
 
-	&.top {
+	&.top-bottom-top {
 		top: 0;
 	}
-	&.bottom {
+	&.top-bottom-bottom {
 		bottom: 0;
 	}
 }

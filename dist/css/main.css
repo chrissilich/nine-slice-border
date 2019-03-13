@@ -84,19 +84,19 @@ body {
 	height: 80px;
 }
 
-.corner.corner-t {
+.corner.corner-top {
 	top: 0;
 }
 
-.corner.corner-l {
+.corner.corner-left {
 	left: 0;
 }
 
-.corner.corner-b {
+.corner.corner-bottom {
 	bottom: 0;
 }
 
-.corner.corner-r {
+.corner.corner-right {
 	right: 0;
 }
 
@@ -108,11 +108,11 @@ body {
 	top: 80px;
 }
 
-.side.side-l {
+.side.side-left {
 	left: 0;
 }
 
-.side.side-r {
+.side.side-right {
 	right: 0;
 }
 
@@ -124,11 +124,11 @@ body {
 	left: 80px;
 }
 
-.top-bottom.top {
+.top-bottom.top-bottom-top {
 	top: 0;
 }
 
-.top-bottom.bottom {
+.top-bottom.top-bottom-bottom {
 	bottom: 0;
 }
 
