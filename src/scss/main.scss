@@ -1,0 +1,84 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+0. Reset
+1. Main Layout
+2. Content
+
+==============================================
+*/
+
+/* 0. Reset ================================= */
+@import 'reset';
+
+
+/* 1. Main Layout ================================= */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #ccc;
+}
+
+
+$thickness: 80px;
+
+
+/* 2. Content ================================= */
+.corner {
+	position: absolute;
+	background-color: red;
+	width: $thickness;
+	height: $thickness;
+
+	&.corner-t {
+		top: 0;
+	}
+	&.corner-l {
+		left: 0;
+	}
+	&.corner-b {
+		bottom: 0;
+	}
+	&.corner-r {
+		right: 0;
+	}
+}
+
+.side {
+	position: absolute;
+	width: $thickness;
+	background-color: pink;
+	height: calc(100vh - #{$thickness} - #{$thickness});
+	top: $thickness;
+
+	&.side-l {
+		left: 0;
+	}
+	&.side-r {
+		right: 0;
+	}
+}
+
+
+.top-bottom {
+	position: absolute;
+	height: $thickness;
+	background-color: lightpink;
+	width: calc(100vw - #{$thickness} - #{$thickness});
+	left: $thickness;
+
+	&.top {
+		top: 0;
+	}
+	&.bottom {
+		bottom: 0;
+	}
+}
